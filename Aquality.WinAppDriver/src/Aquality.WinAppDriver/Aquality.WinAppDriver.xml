@@ -234,7 +234,7 @@
             Provides application profile.
             </summary>
         </member>
-        <member name="M:Aquality.WinAppDriver.Configurations.ApplicationProfile.#ctor(Aquality.Selenium.Core.Utilities.JsonFile,Aquality.WinAppDriver.Configurations.IDriverSettings)">
+        <member name="M:Aquality.WinAppDriver.Configurations.ApplicationProfile.#ctor(Aquality.Selenium.Core.Configurations.ISettingsFile,Aquality.WinAppDriver.Configurations.IDriverSettings)">
             <summary>
             Instantiates class using JSON file with general settings.
             </summary>
@@ -246,7 +246,7 @@
             Provides target application profile.
             </summary>
         </member>
-        <member name="M:Aquality.WinAppDriver.Configurations.DriverSettings.#ctor(Aquality.Selenium.Core.Utilities.JsonFile)">
+        <member name="M:Aquality.WinAppDriver.Configurations.DriverSettings.#ctor(Aquality.Selenium.Core.Configurations.ISettingsFile)">
             <summary>
             Instantiates class using JSON file with general settings.
             </summary>
